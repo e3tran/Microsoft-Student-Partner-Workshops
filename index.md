@@ -52,7 +52,7 @@ Now that you should have your own Student account, let's log in:
 
 Once you've logged in, click ```Portal``` on the top right of your screen.
 
-<img src="images/azure_portal_button.png" width=500 height=350>
+<img src="images/azure_portal_button.png" width="500" height="350">
 
 The ```Portal``` is our main way to use Azure's different Cloud resources.
 
@@ -63,7 +63,7 @@ By using the ```Custom Vision``` resource, we will rent Microsoft's supercompute
 
 Hit ```Create a Resource``` on the top left of your screen.
 
-<img src="images/create_a_resource.png" width=20% height=20%>
+<img src="images/create_a_resource.png" width="20%" height="20%">
 
 In the search bar, type in ```Custom Vision``` and hit enter. It should bring you to this webpage:
 
@@ -72,7 +72,7 @@ In the search bar, type in ```Custom Vision``` and hit enter. It should bring yo
 Click ```Create```, and enter these settings. 
 * Note: for ```Resource Group```, if "NBAClassifier" doesn't exist already, just click ```Create new``` and enter it.
 
-<img src="images/custom_vision_settings.png" width=30% height=30%>
+<img src="images/custom_vision_settings.png" width="30%" height="30%">
 
 Hit ```Create```.
 
@@ -92,15 +92,15 @@ Click ```Get Started```, and sign into your Student account.
 ## Part 5: Create a Project
 Congratulations, you're in! Let's create a new project! Click the button that says ```New Project```
 
-<img src="images/new_project.png" width=50% height=50%>
+<img src="images/new_project.png" width="50%" height="50%">
 
 Next, copy the settings below.
 
-<img src="images/project_settings.png" width=40% height=40%>
+<img src="images/project_settings.png" width="40%" height="40%">
 
 You might be curious as to what we just input. Let's break it down:
 
-<img src="images/project_settings_explanation.png" width=40% height=40%>
+<img src="images/project_settings_explanation.png" width="40%" height="40%">
 
 ## Part 6: Preparing Data
 If you followed the above steps correctly, you should see this screen:
@@ -131,7 +131,7 @@ what each image is in our training dataset. To do this in Azure, we use somethin
    
 Go back to your Custom Vision Portal, and click the ```+``` icon to the right of ```Tags```
 
-<img src="images/tag_plus_icon.png" width=30% height=30%>
+<img src="images/tag_plus_icon.png" width="30%" height="30%">
 
 You should see a pop-up now. This will be how we create new tags to label our data before training our model!
 
@@ -145,7 +145,7 @@ If you notice on the left hand side, we now have a tag called ```player```! Repe
 
 You should now see four tags on the left hand side of your screen:
 
-<img src="images/four_nba_tags.png" width=30% height=30%>
+<img src="images/four_nba_tags.png" width="30%" height="30%">
 
 You can add as many tags as you want to describe tags; each one you add is just one
 parameter to identify the images with.
@@ -153,13 +153,13 @@ parameter to identify the images with.
 ## Part 7: Uploading Data
 Our last step in preparations is to upload our images and tag them! Hit the ```Add Images``` button on the top left corner:
 
-<img src="images/add_images.png" width=50% height=50%>
+<img src="images/add_images.png" width="50%" height="50%">
 
 Navigate through ```nba``` -> ```kobe```, and select all 5 images in the folder. While it's uploading, we can
 tag these 5 photos with their appropriate labels. In the box that says ```Add a tag and press enter```,
 add the tags: ```player``` and ```kobe```. Your screen should look like this:
 
-<img src="images/kobe_images.png" width=50% height=50%>
+<img src="images/kobe_images.png" width="50%" height="50%">
 
 Hit ```Upload```, and wait until you get a success screen. Go ahead and repeat Part 7
 until you've finished uploading and labeling ```lebron``` and ```steph```. Make sure to
@@ -176,7 +176,7 @@ Once you've uploaded all the photos, it's time to train our model!
 
 Click on the green ```Train``` button on the top right of your screen.
 
-<img src="images/train_button.png" width=60% height=60%>
+<img src="images/train_button.png" width="60%" height="60%">
 
 Choose ```Quick Training``` and hit ```Train```. Then, we wait about half a minute for
 our model to train!
@@ -189,7 +189,7 @@ the differences among images of Kobe, Lebron, and Steph.
 To test that our model actually works, we can throw a few photos at our model for it to
 classify. Click the ```Quick Test``` button right next to the ```Train``` button.
 
-<img src="images/quick_test_button.png" width=60% height=60%>
+<img src="images/quick_test_button.png" width="60%" height="60%">
 
 Then, let's upload one image at a time to test. Select ```Browse local files```, and
 navigate to ```nba``` -> ```tests```. Upload ```steph_test.png```. 
@@ -228,7 +228,7 @@ the steps beginning at Part 5, except with your own photos!
 To get started, hit the ```eye``` icon on the top left corner of your model.
 Make sure you don't delete the NBA project you created, we'll use it later!
 
-<img src="images/eye.png" width=10% height=10%>
+<img src="images/eye.png" width="10%" height="10%">
 
 Move on to Part 11 once you've successfully created another model.
 
@@ -244,7 +244,7 @@ In order to create our storage resource, we need to rent space from Microsoft's 
 In your Custom Vision Portal, navigate to your ```NBA Face Classifier```. Click the 
 ```Performance``` tab and hit ```Export```.
 
-<img src="images/export_button.png" width=70% height=70%>
+<img src="images/export_button.png" width="70%" height="70%">
 
 Then select ```Dockerfile``` so we can use your model in future Azure features. 
 
@@ -258,11 +258,11 @@ to Azure Portal:
 Hit ```Create a Resource``` on the top left of your screen, and navigate to 
 ```Storage```. You should see this page:
 
-<img src="images/storage_account_page.png" width=70% height=70%>
+<img src="images/storage_account_page.png" width="70%" height="70%">
 
 Click on ```Storage account```. Then, input these settings:
 
-<img src="images/storage_account_settings.png" width=70% height=70%>
+<img src="images/storage_account_settings.png" width="70%" height="70%">
 
 Go ahead and create this resource. It should take about 10 seconds to deploy.
 
@@ -272,7 +272,7 @@ also navigate to your storage account on the left side of the screen at
 
 Then, we want click the ```Files``` under ```Services``` to specify that you're going to upload a file. 
 
-<img src="images/upload_file.png" width=80% height=80%>
+<img src="images/upload_file.png" width="80%" height="80%">
 
 Once you're inside, you should see a button ```File share```; it just creates a folder and asks you how big you want it. Click it and input these settings:
 1. ( Pick a name for your folder )
