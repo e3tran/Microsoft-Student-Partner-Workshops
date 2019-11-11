@@ -84,15 +84,15 @@ Click ```Sign in```, and sign into your Student account.
 ## Part 5: Create a Project
 Congratulations, you're at the Custom Vision API! Let's create a new project. Click the button that says ```New Project```
 
-<img src="images/new_project.png" width=50% height=50%>
+<img src="images/new_project.png" width="50%" height="50%">
 
 Next, copy the settings below.
 
-<img src="images/project_settings.png" width=40% height=40%>
+<img src="images/project_settings.png" width="40%" height="40%">
 
 You might be curious as to what we just input. Let's break it down:
 
-<img src="images/project_settings_explanation.png" width=40% height=40%>
+<img src="images/project_settings_explanation.png" width="40%" height="40%">
 
 Geez, they sure do want a lot, don't they? I just want to start classifying images!!
 
@@ -118,7 +118,7 @@ Before we can train a model that can recognize what each image is, we have to te
    
 Go back to Custom Vision API, and click the ```+``` icon to the right of ```Tags```
 
-<img src="images/tag_plus_icon.png" width=30% height=30%>
+<img src="images/tag_plus_icon.png" width="30%" height="30%">
 
 You should see a pop-up now. This will be how we create new tags to label our data before training our model! 
 
@@ -131,7 +131,7 @@ If you notice on the left hand side, we now have a tag called ```celebrity```. T
 
 You should now see four tags on the left hand side of your screen:
 
-<img src="images/four_celeb_tags.png" width=30% height=30%>
+<img src="images/four_celeb_tags.png" width="30%" height="30%">
 
 You can add as many tags as you want to describe tags; each one you add is just one parameter to identify the images with. Hey... hey! Elon isn't a "tesla", so why are you labeling him as one? Arghhh, fine so be it.
 
@@ -140,11 +140,11 @@ You've come far, adventurer! Stay with me, we're almost there.
 
 Our last step in preparations is to upload our images and tag them. Hit the ```Add Images``` button on the top left corner:
 
-<img src="images/add_images.png" width=50% height=50%>
+<img src="images/add_images.png" width="50%" height="50%">
 
 Navigate to ```elon``` and select all 5 images in the folder. While it's uploading, we can tag these 5 photos with their appropriate labels. In the box that says ```Add a tag and press enter```, add the tags: ```celebrity``` and ```elon```. Your screen should look like this:
 
-<img src="images/elon_images.png" width=50% height=50%>
+<img src="images/elon_images.png" width="50%" height="50%">
 
 Hit ```Upload```, and wait until you get a success screen. Go ahead and repeat Part 7 until you've finished uploading and labeling ```kim``` and ```scarlett```. Make sure to label them appropriately! Don't label a Kim as a ```scarlett```!
 * Kim photos should be labeled ```celebrity``` and ```kim```
@@ -161,7 +161,7 @@ Training our model will teach it how to recognize whether a photo is of Kim, Elo
 
 Click on the green ```Train``` button on the top right of your screen.
 
-<img src="images/train_button.png" width=60% height=60%>
+<img src="images/train_button.png" width="60%" height="60%">
 
 Choose ```Quick Training``` and hit ```Train```. Then, we wait about half a minute for our model to train. Yeah yeah, half a minute ain't too bad so just wait it out!!
 
@@ -172,7 +172,7 @@ At this point, you must be pretty skeptical about this whole machine learning bu
 
 To test that our model actually works, we can throw a few photos at our model for it to classify. Click the ```Quick Test``` button right next to the ```Train``` button.
 
-<img src="images/quick_test_button.png" width=60% height=60%>
+<img src="images/quick_test_button.png" width="60%" height="60%">
 
 Then, let's upload one image at a time to test. Select ```Browse local files```, and navigate to ```tests```. Upload ```scarlett_test.jpg```. 
 
@@ -208,7 +208,7 @@ the steps beginning at Part 5, except with your own photos!
 
 To get started, hit the ```eye``` icon on the top left corner of your model.
 
-<img src="images/eye.png" width=10% height=10%>
+<img src="images/eye.png" width="10%" height="10%">
 
 Move on to Part 12 once you've successfully created another model. Isn't this exciting? No wonder this place is a wonder of Azure!
 
