@@ -49,7 +49,7 @@ Let's enter the portal with our key now:
 
 Once you've logged in, click ```Portal``` on the top right of your screen.
 
-<img src="images/azure_portal_button.png" width=500 height=350>
+<img src="images/azure_portal_button.png" width="500" height="350">
 
 The ```Portal``` is the gateway that connects the humon world with the realm of Azure. Onward!!
 
@@ -58,7 +58,7 @@ Our next step should be to create a new Custom Vision resource. What was that? Y
 
 Let's get started shall we? Hit ```Create a Resource``` on the top left of your screen.
 
-<img src="images/create_a_resource.png" width=20% height=20%>
+<img src="images/create_a_resource.png" width="20%" "height=20%">
 
 In the magical search bar, type in ```Custom Vision``` and hit enter. It should bring you to this:
 
