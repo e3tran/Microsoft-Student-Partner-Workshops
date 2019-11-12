@@ -58,7 +58,7 @@ Our next step should be to create a new Custom Vision resource. What was that? Y
 
 Let's get started shall we? Hit ```Create a Resource``` on the top left of your screen.
 
-<img src="images/create_a_resource.png" width="20%" "height=20%">
+<img src="images/create_a_resource.png" width="20%" height="20%">
 
 In the magical search bar, type in ```Custom Vision``` and hit enter. It should bring you to this:
 
