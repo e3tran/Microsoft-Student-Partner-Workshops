@@ -106,7 +106,7 @@ This is our workspace to upload data and train our classification model! Looks b
 Remember, to properly use the essence of ```machine learning```, we need to first throw a bunch of data at our machine before it can predict anything. Data can exist in many forms; in this case, different images of our celebrities will be our data. 
 
 To start, let's upload our data! Download this file:
-* [celebs.zip](https://mspimageclassification.file.core.windows.net/images/celebs.zip?sp=rl&st=2019-11-11T03:46:58Z&se=2019-11-12T03:46:58Z&sv=2019-02-02&sig=us1mfWTZrNR2%2Fh5ELuD%2BnRJzi2iSVFZreVQ2SdUNDag%3D&sr=f)
+* [celebs.zip](https://mspimageclassification.file.core.windows.net/images/celebs.zip?sp=rl&st=2019-11-12T08:24:11Z&se=2021-02-10T08:24:00Z&sv=2019-02-02&sig=c3WjMkt89xsZ8LH8kpMqWKxxr0r4i2xAHHFyQS%2FI1aU%3D&sr=f)
 
 This should download a file called ```celebs.zip``` on your computer. Go to your ```Downloads``` on your computer and unzip the file you just downloaded. You can do this typically by right clicking ```celebs.zip``` and select ```Extract All```; if you're on Mac, just double clicking the .zip file will do.
   
